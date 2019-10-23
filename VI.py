@@ -12,6 +12,7 @@ p(w, alpha_1,...,alpha_d, lambda |y,x)
 """
 import numpy as np
 import matplotlib.pyplot as plt
+import argparse
 import scipy.stats as stats
 from scipy.special import digamma, gamma, gammaln
 plt.rcParams['figure.figsize'] = (12.0, 9) # set default size of plots
